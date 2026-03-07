@@ -60,7 +60,7 @@ public class RentalApp {
                              case 5 -> searchVehicle();      //  Show total rental income
                              case 6 -> {
                                  System.out.println("______________________________________________");
-                                 System.out.printf("| + Total rental cost: Rs. %.2f +        |\n", totalRental );
+                                 System.out.printf("| + Total rental Income: Rs. %.2f +        |\n", totalRental );
                                  System.out.println("______________________________________________\n");
                              }
                              case 7 -> {           // Exit program

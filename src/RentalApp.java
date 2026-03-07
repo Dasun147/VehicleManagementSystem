@@ -174,7 +174,7 @@ public class RentalApp {
             System.out.println("_______________________________________________");
             System.out.println("|  !! No vehicles available in the system !!  |");
             System.out.println("_______________________________________________\n");
-
+            return;
         }
         System.out.println("=== All vehicles ===\n");
         for(Vehicle vehicle : vehicles){

@@ -692,7 +692,7 @@ public class RentalApp {
      * - Input must not be empty.
      * - Leading and trailing spaces are removed using trim().
      */
-    static String getvalidString(String message){
+    static String getValidString(String message){
         while(true) {
 
                 // Display message and read input
